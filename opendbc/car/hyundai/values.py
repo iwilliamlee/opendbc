@@ -556,7 +556,7 @@ class CAR(Platforms):
                      car_parts=CarParts.common([CarHarness.hyundai_q])),
     ],
     CarSpecs(mass=2253, wheelbase=3.09, steerRatio=14.23),
-    flags=HyundaiFlags.HYBRID,
+    flags=HyundaiFlags.HYBRID | HyundaiFlags.CANFD_ALT_BUTTONS,
   )
 
   # Genesis
